@@ -1,0 +1,201 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: #00000a;
+}
+.box
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 340px;
+    height: 340px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.item
+{
+    width: 100px;
+    height: 100px;
+    background-color: #e98be4;
+    border: 1px solid #17032b;
+}
+#one
+{
+    animation-name: one;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes one
+{
+    0%
+    {
+        transform-origin: top left;
+    }    
+    100%
+    {
+        transform-origin: top left;
+        transform: rotate(360deg);
+    }
+}
+#two
+{
+    animation-name: two;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes two
+{
+    0%
+    {
+        transform-origin: top center;
+    }    
+    100%
+    {
+        transform-origin: top center;
+        transform: rotate(360deg);
+    }
+}
+#three
+{
+    animation-name: three;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes three
+{
+    0%
+    {
+        transform-origin: top right;
+    }    
+    100%
+    {
+        transform-origin: top right;
+        transform: rotate(360deg);
+    }
+}
+#four
+{
+    animation-name: four;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes four
+{
+    0%
+    {
+        transform-origin: center left;
+    }    
+    100%
+    {
+        transform-origin: center left;
+        transform: rotate(360deg);
+    }
+}
+#five
+{
+    animation-name: five;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes five
+{
+    0%
+    {
+        transform-origin: center center;
+    }    
+    100%
+    {
+        transform-origin: center center;
+        transform: rotate(360deg);
+    }
+}
+#six
+{
+    animation-name: six;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes six
+{
+    0%
+    {
+        transform-origin: center right;
+    }    
+    100%
+    {
+        transform-origin: center right;
+        transform: rotate(360deg);
+    }
+}
+#seven
+{
+    animation-name: seven;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes seven
+{
+    0%
+    {
+        transform-origin: bottom left;
+    }    
+    100%
+    {
+        transform-origin: bottom left;
+        transform: rotate(360deg);
+    }
+}
+#eight
+{
+    animation-name: eight;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes eight
+{
+    0%
+    {
+        transform-origin: bottom center;
+    }    
+    100%
+    {
+        transform-origin: bottom center;
+        transform: rotate(360deg);
+    }
+}
+#nine
+{
+    animation-name: nine;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes nine
+{
+    0%
+    {
+        transform-origin: bottom right;
+    }    
+    100%
+    {
+        transform-origin: bottom right;
+        transform: rotate(360deg);
+    }
+}
